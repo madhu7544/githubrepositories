@@ -1,0 +1,39 @@
+.each-repo {
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.avatar {
+  height: 80px;
+  width: 80px;
+}
+.repo-head {
+  font-size: 18px;
+  color: #e73959;
+}
+.all-repos-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-repo-data {
+  display: flex;
+}
+.image-dot {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+.data {
+  margin-left: 12px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
